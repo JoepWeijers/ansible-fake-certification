@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+ <title>You are a certified Ansible novice!</title>
+<style>
+body {
+  background: rgb(204,204,204);
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  font-size: 0.6cm;
+}
+div.page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  text-align: center;
+}
+div.A4 {  
+  width: 21cm;
+  height: 29.7cm;
+}
+#padding {
+  padding: 1cm;
+}
+#border {
+  padding: 1cm;
+  border: 0.1cm solid black;
+}
+#logo {
+  width: 3cm;
+  float: right;
+}
+#clearfix {
+  clear: both;
+}
+#signature {
+  width: 7cm;
+}
+#name {
+  font-size: 1.5cm;
+  font-weight: 700;
+  height: 2.4em;
+  overflow: hidden;
+}
+#title {
+  font-size: 1.3cm;
+  font-weight: 500;
+}
+#talk, #conference {
+  font-size: 1.0cm;
+}
+#disclaimer {
+  font-size: 0.25cm;
+  line-height: 1em;
+  color: #CCCCCC;
+  width: 8cm;
+  margin: 0 auto;
+}
+</style>
+</head>
+
+<body>
+<div class="page A4">
+<div id="padding">
+<div id="border">
+<div id="logo"><img src="logo.png" alt="Ansible logo" id="logo"></div>
+<div id="clearfix"></div>
+By the power vested in me by myself, I declare that<br><br>
+
+<div id="name">[NAME PLACEHOLDER]</div><br><br>
+
+has jokingly been awarded the title<br><br>
+
+<span id="title">Ansible Novice</span><br><br>
+
+through virtue of joining the presentation<br><br>
+
+<span id="talk">A day in the life of a buildmaster</span><br>
+
+at<br>
+
+<span id="conference">JavaLand 2019</span><br><br>
+
+<img src="signature.png" alt="signature" id="signature"><br>
+
+<span id="speakername">Joep Weijers</span><br>
+Build Master<br>
+TOPdesk<br>
+<div id="disclaimer">Yes, you read that right. TOPdesk, not Ansible. I'm not affiliated with Ansible, nor am I in any position to hand out certifications. This is a joke. This certificate is worthless. But you are free to print it out and hang it behind your desk. If people don't read this small print, they may even be fooled.<br>
+Ansible&reg; logo pending trademark.</div>
+</div>
+</div>
+</div>
+<script>
+document.getElementById("name").innerHTML = prompt("Please enter your name.\nNo worries, it's all client side and just for fun", "Your name");
+</script>
+</body>
+</html>
